@@ -6,7 +6,7 @@ public class Overloading {
 		
 	}
 	
-	public int add (int a){
+	public int add1 (int a){
 		return a;
 	}
 

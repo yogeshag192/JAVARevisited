@@ -18,7 +18,7 @@ public class ArmstrongNumber {
 			y = y+x;
 			
 		}
-		System.out.println("Armstrong no of a is: " +y);
+		System.out.println("Armstrong no of " + a +" is: " + y);
 
 	}
 
