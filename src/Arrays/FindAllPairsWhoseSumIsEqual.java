@@ -30,7 +30,7 @@ public class FindAllPairsWhoseSumIsEqual {
 
 	public static void main(String[] args) {
 		int a[] = {5,6,2,3,4,1,7,8,0,10,-2};
-		findPairs(generateRandomArray(), 8);
+		findPairs(generateRandomArray(), 7);
 		
 
 	}

@@ -34,6 +34,8 @@ public class Sets {
 			set1.add(i + " Name" +i);
 		}
 	
+		
+		//set1.add(null); java.lang.NullPointerException
 		set1.add("1 Name1");
 		
 		Iterator<String> it = set1.iterator();

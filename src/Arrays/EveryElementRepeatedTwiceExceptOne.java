@@ -10,6 +10,7 @@ public class EveryElementRepeatedTwiceExceptOne {
 		
 		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 		
+		
 		for(int i : a){
 			map.put(i, map.containsKey(i) ? map.get(i) +1 : 1);
 			/*if(map.containsKey(i)){
@@ -34,7 +35,7 @@ public class EveryElementRepeatedTwiceExceptOne {
 	public static void main(String[] args) {
 		
 		
-		int a[] = {1, 1, 2, 2, 3, 4, 4, 5, 5};
+		int a[] = {1, 1, 2, 2, 2, 3, 4, 4, 5, 5};
 		
 		findSingleElement(a);
 

@@ -69,7 +69,7 @@ public class FindFirstNonRepeatingChar {
 		//findFirstNonRepCharUsingLinkedHashMap("YYooggeessh");
 		//findFirstNonRepCharUsingHashMap("YYooggeesshh");
 		
-		findFirstNonRepCharUsingHashMap("YYooaggeebsshhY");
+		findFirstNonRepCharUsingHashMap("YYooaggeebsshhYa");
 		
 	}
 

@@ -1,6 +1,11 @@
+/ArmstrongNumber.class
+/ArmstrongNumber2.class
 /Arrays/
 /RemoveElementFromArray.class
+/RemoveElementWithoutUsingCollection.class
 /ReverseArray.class
+/ReverseArray2.class
+/ReverseArrayUsingList.class
 /StringMemoryCheck.class
 /Strings/
 /Substring.class
@@ -17,7 +22,3 @@
 /regularExpression/
 /singleton/
 /threads/
-/ArmstrongNumber2.class
-/RemoveElementWithoutUsingCollection.class
-/ReverseArray2.class
-/ReverseArrayUsingList.class

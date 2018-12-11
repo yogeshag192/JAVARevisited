@@ -23,7 +23,7 @@ public class PrimeNumber {
 	}
 	public static void main(String[] args) throws UnknownHostException {
 		
-		checkPrimeOrNot(30);
+		checkPrimeOrNot(17);
 	}
 
 }

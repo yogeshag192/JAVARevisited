@@ -16,12 +16,12 @@ public class RemoveDuplicates {
 			}
 		}
 
-		System.out.println(list.toArray());
+		System.out.println(list);
 	}
 
 	
 	
-	public static void removeDuplicateWithoutCollections(int array[]){
+	/*public static void removeDuplicateWithoutCollections(int array[]){
 		int newArray[] = new int [array.length];
 		
 		Arrays.sort(array);
@@ -43,12 +43,13 @@ public class RemoveDuplicates {
 		
 		
 	}
+	*/
 	
 	public static void main(String[] args) {
 
 		int a[] = {1,2,3,1,5,7,1,9,2};
 		removeDuplicateUsingList(a);
-		removeDuplicateWithoutCollections(a); //working
+		//removeDuplicateWithoutCollections(a); //working
 	}
 
 }
