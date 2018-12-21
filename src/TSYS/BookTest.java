@@ -1,6 +1,7 @@
 package TSYS;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Hashtable;
@@ -65,7 +66,7 @@ public class BookTest {
 		/*for (Map.Entry<Book, Book> entry: map1.entrySet()){
 			System.out.println(entry.getKey().author + " " +entry.getValue().bookName);
 		}*/
-		System.out.println(map1.size());
+		System.out.println(Collections.synchronizedMap(map1) + "  " +map1.size());
 		System.out.println(list1.size());
 		System.out.println(set1.size());
 		

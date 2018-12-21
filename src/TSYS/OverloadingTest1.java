@@ -18,6 +18,10 @@ public class OverloadingTest1 {
 		public static void test(int i){
 			System.out.println("int primitive");	
 		}
+		
+		public static void test(Integer i){
+			System.out.println("Integer");	
+		}
 	
 	public static void main(String[] args) {
 	

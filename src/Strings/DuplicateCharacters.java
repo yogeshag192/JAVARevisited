@@ -1,6 +1,7 @@
 package Strings;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Iterator;
@@ -44,7 +45,7 @@ public class DuplicateCharacters {
 				}
 			}
 			
-			if ( count>0) {
+			if (count>0) {
 				System.out.println("Duplicate character found: " +word.charAt(i) + " and count is: " +count);
 			}
 			count = 0;
@@ -67,15 +68,22 @@ public class DuplicateCharacters {
 			}
 		}
 		
-		for (Map.Entry<Character, Integer> entry : map.entrySet()){
+		for (Map.Entry<Character, Integer> entry : map.entrySet())
+		{
 			if (entry.getValue()>1){
 				System.out.println("Duplicate character : = " +entry.getKey() + " and found " +entry.getValue() + " times");
+				System.out.println("Removing duplicate Value : " +entry.getKey());
+				map.remove(entry.getKey());
+				
 			}
-			if (entry.getKey().equals("Y")){
+			
+			/*if (entry.getKey().equals("Y")){
 				map.remove(entry.getKey());
 				System.out.println("Value removed: " +entry.getKey());
-			}
+			}*/
 		}
+		
+		System.out.println(Collections.synchronizedMap(map));
 		
 		/*Iterator it = map.entrySet().iterator();
 		//Iterator it = set.iterator();
@@ -96,7 +104,11 @@ public class DuplicateCharacters {
 	public static void main(String[] args) {
 	
 		findDuplicateUsingHashMap("yogeeshyeoo");
-		
+		/*System.out.println("=====================================");
+		findDuplicateUsingStr("yogeeshyeoo");
+		System.out.println("=====================================");
+		findDuplicateUsingHashMap("yogeeshyeoo");
+		*/
 }
 	
 	

@@ -27,8 +27,6 @@ public class FindFirstNonRepeatingChar {
 		throw new RuntimeException("No Non Repeating chars found:");
 	}
 
-	
-	
 	public static void findFirstNonRepCharUsingHashMap(String str){
 		Map <Character, Integer> map = new HashMap<Character, Integer> ();
 		
@@ -54,13 +52,15 @@ public class FindFirstNonRepeatingChar {
 	
 	}
 		
-		public static void usingStringIndexOf(String word){
+	public static void usingStringIndexOf(String word){
 			for(int i=0;i<word.length();i++){
 				if(word.indexOf(word.charAt(i))== word.lastIndexOf(word.charAt(i))){
-				System.out.println("non rep chars are:= " +word.charAt(i));
+				System.out.println("First non repeating char := " +word.charAt(i));
+				break;
 				}
+				
 				}
-		}
+	}
 		
 		
 	
@@ -69,7 +69,7 @@ public class FindFirstNonRepeatingChar {
 		//findFirstNonRepCharUsingLinkedHashMap("YYooggeessh");
 		//findFirstNonRepCharUsingHashMap("YYooggeesshh");
 		
-		findFirstNonRepCharUsingHashMap("YYooaggeebsshhYa");
+		usingStringIndexOf("YYoobaggeesshh");
 		
 	}
 
